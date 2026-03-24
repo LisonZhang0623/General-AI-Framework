@@ -1,0 +1,6 @@
+Epoch | Train Loss | Val Loss | Val Acc
+Epoch 1 | train_loss=1.2448 | val_loss=1.2920 | val_acc=0.0000
+Epoch 2 | train_loss=1.2286 | val_loss=1.2724 | val_acc=0.0000
+Epoch 3 | train_loss=1.2276 | val_loss=1.2839 | val_acc=0.0000
+Epoch 4 | train_loss=1.2281 | val_loss=1.2816 | val_acc=0.0000
+Epoch 5 | train_loss=1.2286 | val_loss=1.2866 | val_acc=0.0000

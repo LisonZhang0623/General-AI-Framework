@@ -1,0 +1,30 @@
+experiment_name: exp_temp
+output_dir: outputs
+seed: 42
+
+model:
+  name: your-model-name
+
+data:
+  train_path: /path/to/your/data/train
+  valid_path: /path/to/your/data/valid
+  num_workers: 8
+  image_size: 224
+
+train:
+  epochs: 50
+  batch_size: 32
+  lr: 1e-3
+  optimizer: AdamW
+  lr_schedule: step_lr
+  scheduler_params:
+    step_size: 20
+    gamma: 0.1
+  weight_decay: 1e-4
+  grad_accum_steps: 1
+  mixed_precision: no   # no / fp16 / bf16
+  log_interval: 20
+
+save:
+  save_every_epoch: 1
+  max_checkpoints: 3

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+.env/
+venv/
+*.env
+
+# 数据
+data/
+datasets/
+
+# 权重
+*.pth
+*.pt
+*.ckpt
+
+# 日志
+*.log
+output/
+runs/
+
+# IDE
+.vscode/
+.idea/
